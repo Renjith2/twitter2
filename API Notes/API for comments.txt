@@ -1,0 +1,35 @@
+API for comments for a specific blog(POST)
+
+URL- http://localhost:6666/api/comment/add/blogID
+Payload-
+
+{
+    "content":"Why is that"
+}
+
+
+
+
+
+
+API for comment Editing (PUT)
+
+URL - http://localhost:6666/api/comment/edit/commentID
+
+
+Payload -
+{
+    "content":"Why is that dude"
+}
+
+
+
+
+
+
+API for comment deleting(DELETE)
+
+URL - http://localhost:6666/api/comment/delete/commentID
+
+
+

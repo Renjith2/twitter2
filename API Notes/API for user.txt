@@ -1,0 +1,27 @@
+API for Registering User(POST)
+
+URL-  http://localhost:6666/api/user/register
+
+Payload -
+
+
+{
+
+     "name":"rakesh",
+    "email":"rakesh123@gmail.com",
+    "password":"rakesh"
+}
+
+
+
+
+API for Logging in  User(POST)
+
+URL - http://localhost:6666/api/user/login
+Payload -
+{
+
+    
+    "email":"rakesh123@gmail.com",
+    "password":"rakesh"
+}

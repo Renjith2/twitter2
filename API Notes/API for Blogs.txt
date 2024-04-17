@@ -1,0 +1,46 @@
+API for Adding Blogs(POST)
+
+
+URL - http://localhost:6666/api/blogs/add 
+Payload -
+
+{
+    "content":"I hate Movies"
+}
+
+
+
+
+
+
+
+API for Seeing all  Blogs(GET)
+
+URL - http://localhost:6666/api/blogs/all
+
+
+
+
+
+
+API for Editiing all  Blogs(PUT)
+
+
+URL - http://localhost:6666/api/blogs/edit/blodId
+
+{
+    "content":"I hate Movies and Music too"
+}
+
+
+
+
+
+
+
+
+API for deleting the BLOG(DELETE)
+
+URL- http://localhost:6666/api/blogs/delete/661fb29eedd83ed8cd472163
+
+
